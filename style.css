@@ -28,12 +28,17 @@ body{
     display: inline-block;
     color: #3f4041;
 }
-.fa-regular:hover{
-    border-radius: 50px;
-    border-style: solid;
-    border-color: #d2d2d2;
-    font-size:35px;
-    background-color: #d2d2d2;
+.text:hover{
+    /* border-radius: 50px; */
+    /* border-style: solid; */
+    /* border-color: #d2d2d2; */
+    /* font-size:35px; */
+    /* background-color: #d2d2d2; */
+    text-decoration: underline;
+}
+.text i:hover{
+    background-color: lightslategray;
+    border-radius: 50%;
 }
 
 .icon {
@@ -57,9 +62,10 @@ body{
     margin: 20px;
 }
 .mainscroll{
-    overflow: scroll;
+    overflow-y: scroll;
     width: 28%;
     height:700px;
+    
 }
 .icons{
 
