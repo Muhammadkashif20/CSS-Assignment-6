@@ -159,6 +159,40 @@ img {
     position: absolute;
     right: 50PX;
 }
-.text1{
-
+.textparent1{
+    position: relative;
+   
+}
+.text1{ 
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    color: white;
+    padding: 10PX;
+    text-decoration: NONE;
+    
+}
+.text1:hover{
+    text-decoration: underline;
+}
+h2{
+    font-size: 25px;
+    padding: 10PX;
+}
+.textparent1{
+    position: relative;
+   
+}
+.text2{ 
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    color: white;
+    padding: 10PX;
+    text-decoration: NONE;
+    
+}.h22{
+    font-size: 25px;
+    padding: 10PX;
+    margin-bottom: -10px;
 }
